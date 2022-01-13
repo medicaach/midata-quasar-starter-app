@@ -84,6 +84,11 @@ const midataLinksList = [
     icon: 'auto_fix_high',
     link: '/midata/demo',
   },
+  {
+    title: 'Midata Chat',
+    icon: 'chat',
+    link: '/midata/trustie',
+  },
 ];
 
 const deveelopmentLinksList = [

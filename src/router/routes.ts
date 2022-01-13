@@ -56,6 +56,13 @@ const routes: RouteRecordRaw[] = [
     ],
   },
   {
+    path: '/midata/trustie',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/midata/MidataChat.vue') },
+    ],
+  },
+  {
     path: '/internationalization',
     component: () => import('layouts/MainLayout.vue'),
     children: [
