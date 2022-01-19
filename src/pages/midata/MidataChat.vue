@@ -1,9 +1,6 @@
 <template>
   <q-page>
-    <div class="q-mb-xl">
-      <div class="text-h3 text-weight-thin">Einführung in Trustie</div>
-      <q-separator spaced class="midata-fade"></q-separator>
-    </div>
+   
     <matrix-component></matrix-component>
     <div class="q-my-xl text-grey">Quelle: https://trustie.medicaa.ch</div>
   </q-page>
