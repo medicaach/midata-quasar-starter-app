@@ -1,7 +1,7 @@
 <template>
-  <q-page>
-   
-    <matrix-component></matrix-component>
+  <q-page class="chat">
+
+    <trustie-component></trustie-component>
     <div class="q-my-xl text-grey">Quelle: https://trustie.medicaa.ch</div>
   </q-page>
 </template>
@@ -17,4 +17,15 @@ export default defineComponent({
 <style lang="sass" scoped>
 .img-800
   max-width: 800px
+
+.chat
+  margin: -50px -100px
+
+
+.screen--sm .chat
+  margin: -81px -30px
+  z-index: 100000
+  position: fixed
+  width: 100%
+  height: 100%
 </style>
